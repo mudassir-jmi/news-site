@@ -1,4 +1,8 @@
-<?php include "header.php"; ?>
+<?php include "header.php"; 
+
+
+
+?>
   <div id="admin-content">
       <div class="container">
           <div class="row">
@@ -9,6 +13,12 @@
                   <a class="add-new" href="add-post.php">add post</a>
               </div>
               <div class="col-md-12">
+                <!-- dynamic post page -->
+
+                <?php 
+                include "config.php";
+                ?>
+
                   <table class="content-table">
                       <thead>
                           <th>S.No.</th>
