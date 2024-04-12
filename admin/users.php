@@ -62,7 +62,9 @@ if($_SESSION['user_role'] == '0') {
                           <?php } ?>
                       </tbody>
                   </table>
-                  <?php } 
+                  <?php }else {
+                    echo "<h3>o Results Found.</h3>";
+                  }
                   
                 // for pagination  
 
